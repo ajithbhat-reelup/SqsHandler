@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "node server.js"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ajithbhat-reelup/SqsHandler#readme",
   "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.787.0",
     "@aws-sdk/client-sqs": "^3.787.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
